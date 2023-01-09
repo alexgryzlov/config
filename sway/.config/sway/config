@@ -18,7 +18,7 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu rofi -show run
+set $menu rofi -show drun
 
 default_border pixel 1
 default_floating_border pixel 1
@@ -27,8 +27,9 @@ default_floating_border pixel 1
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
-output HDMI-A-1 mode 1920x1080@120Hz pos 0 0
-output eDP-1 pos 0 1080
+output DP-3 mode 1920x1080@239.760Hz pos 0 0
+# output HDMI-A-1 mode 1920x1080@120Hz pos 0 0
+# output eDP-1 pos 0 1080
 #
 # Example configuration:
 #
