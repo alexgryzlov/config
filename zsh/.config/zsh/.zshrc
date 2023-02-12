@@ -9,6 +9,7 @@ setopt NO_BEEP
 # enable colors + prompt
 autoload -Uz colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[magenta]%}%~%{$fg[red]%}]%{$fg[green]%} >%{$reset_color%}%b "
+RPROMPT='[%D{%L:%M:%S}] '$RPROMPT
 
 
 # name completion

@@ -1,6 +1,6 @@
 ## Packages
 ```
-pacman -S exa neovim paru stow sway zsh ttf-hack-nerd noto-fonts noto-fonts-cjk waybar pass java-runtime wl-clipboard
+pacman -S exa neovim paru stow sway zsh ttf-hack-nerd noto-fonts noto-fonts-cjk waybar pass java-runtime wl-clipboard grim slurp
 paru rofi-lbonn-wayland clion
 ```
 
@@ -10,22 +10,27 @@ paru rofi-lbonn-wayland clion
 stow -t ~ <name>
 ```
 
-# Windows manager
+## Windows manager
 sway
 
-# Bar
+## Bar
 waybar
 
-# Terminal
+## Terminal
 alacritty
 
-# Passwords
+## Passwords
 gpg with pass
 ```
 gpg --import <secret subkeys>
 ```
 
-# Clion
+## Clion
 need to modify desktop entry: [wiki](https://wiki.archlinux.org/title/sway#Java_applications)
 
+## gtk theme
+use lxappearance to change themes, arc theme
 
+## droidcam
+sudo pacman -S android-tools v4l2loopback-dkms droidcam
+enable remote debugging in the phone developer's settings
